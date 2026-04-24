@@ -1,0 +1,5 @@
+name = "BitBake"
+grammar = "bitbake"
+path_suffixes = ["bb", "bbappend", "bbclass", "inc"]
+line_comments = ["# "]
+tab_size = 4

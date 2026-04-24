@@ -1,0 +1,15 @@
+id = "bitbake"
+name = "BitBake"
+description = "BitBake language support for Yocto/OpenEmbedded."
+version = "0.1.0"
+schema_version = 1
+authors = ["Altair Bueno <67512202+Altair-Bueno@users.noreply.github.com>"]
+repository = "https://github.com/Altair-Bueno/zed-bitbake"
+
+[language_servers.bitbake-language-server]
+name = "BitBake Language Server"
+language = "BitBake"
+
+[grammars.bitbake]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-bitbake"
+commit = "a5d04fdb5a69a02b8fa8eb5525a60dfb5309b73b"
